@@ -1,0 +1,20 @@
+student={
+    "name":"Aman",
+    "id":101,
+    "subjects":{
+      "phy":97,
+      "chem":98,
+      "math":100
+    }
+}
+print(student.keys())
+print(student.values())
+print(list(student.keys()))
+print(len(student))
+print(student.items()) #all value and items in braces
+print(student.get("name"))
+student.update({"city":"Delhi"})
+print(student)
+new_dt={"age":16,"address":202}
+student.update(new_dt)
+print(student)
