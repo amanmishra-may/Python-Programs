@@ -13,7 +13,7 @@ collection.remove(1)
 collection.add("Aman")
 collection.add((2,4,6)) #tuple
 print(collection)
-collection.pop()
+collection.pop() #pop random element
 print(collection)
 collection.clear()
 print(len(collection))

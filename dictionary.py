@@ -23,4 +23,5 @@ student={
       "math":100
     }
 }
+print(student["subjects"])
 print(student["subjects"]["math"])
