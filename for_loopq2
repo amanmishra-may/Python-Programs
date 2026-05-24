@@ -1,0 +1,9 @@
+x=25
+t=(1,4,9,16,25,36,49,64,81,100)
+indx=0
+for el in t :
+    if(x==el):
+        print("found at index",indx)
+    indx+=1    
+else:
+    print("End of tuple")
