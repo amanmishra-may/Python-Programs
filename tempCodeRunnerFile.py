@@ -1,4 +1,6 @@
-m=int(input("Enter a number :"))
-n=int(input("Enter a number :"))
-p=m**n
-print(p);
+def con(m):
+    m*=98
+    print(m)
+
+m=5
+con(m)
